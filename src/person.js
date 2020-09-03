@@ -38,13 +38,7 @@ export const PERSON = {
       name: "Milon-Room",
       link: "https://milon-room.herokuapp.com/",
       description:
-        "A Video Coneferencing Meeting Room creating Web-App made with nodeJS & it also has a built-in group Chat-System for multiple users.",
-    },
-    {
-      name: "aviyan-browser-kotlin",
-      link: "https://github.com/SumonRayy/aviyan-browser-kotlin",
-      description:
-        "A Simple Android Web Browser Application made with Kotlin and xml in Android Studios.",
+        "A Video Coneferencing Meeting Room creating Web-App made with nodeJS & it also has a built-in group Chat-System for multiple users. View More about my projects on my GitHub",
     },
   ],
 
