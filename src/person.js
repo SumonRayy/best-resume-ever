@@ -1,86 +1,96 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
-    middle: '',
-    last: 'Doe',
+    first: "Sumon",
+    middle: "",
+    last: "Roy",
   },
-  position: 'Software Developer',
+  position: "Software Developer",
   birth: {
-    year: 1990,
-    location: 'New York'
+    year: 1999,
+    location: "Bankura",
   },
-  experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
-    },
+  experience: [
     {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremely important tasks.'
+      company: "Interior Traffic",
+      position: "Full Stack Developer",
+      timeperiod: "since June 2020 to August 2020",
+      description:
+        "My Role was to Build a Fully Functioning Website with a Database.",
     },
-    {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
-    }
   ],
-  education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
+  education: [
+    {
+      degree: "Diploma in Computer Science and Technology",
+      timeperiod: "July 2017 - August 2020",
+      description:
+        "Learned the Fundamentals of Computer Science , Data Structures and Algorithms , various Programming Languages(C , C++, JAVA) , Microprocessors , OS , DBMS(sql, MongoDB) & Economics , being the Class Represntative for 3years at Kanyapur Polytechnic College, Asansol, West Bengal.",
+    },
+  ],
+  projects: [
+    {
+      name: "NowChat.in",
+      link: "https://nowchat.in/",
+      description:
+        "NowChat is a medium for Sharing Your ideas & thoughts all over the world through Articles. NowChat.in also has various other features including Profiling , Messaging , Photo Sharing etc.",
     },
     {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
-    }
+      name: "Milon-Room",
+      link: "https://milon-room.herokuapp.com/",
+      description:
+        "A Video Coneferencing Meeting Room creating Web-App made with nodeJS & it also has a built-in group Chat-System for multiple users.",
+    },
+    {
+      name: "aviyan-browser-kotlin",
+      link: "https://github.com/SumonRayy/aviyan-browser-kotlin",
+      description:
+        "A Simple Android Web Browser Application made with Kotlin and xml in Android Studios.",
+    },
   ],
+
   // skill level goes 0 to 100
-  skills: [{
-      name: 'HTML5',
-      level: '99'
+  skills: [
+    {
+      name: "HTML5",
+      level: "99",
     },
     {
-      name: 'CSS3',
-      level: '95'
+      name: "CSS3",
+      level: "95",
     },
     {
-      name: 'JavaScript',
-      level: '97'
+      name: "JavaScript",
+      level: "85",
     },
     {
-      name: 'Node.js',
-      level: '93'
+      name: "Node.js",
+      level: "80",
     },
     {
-      name: 'Angular 2',
-      level: '60'
+      name: "ReactJS",
+      level: "65",
     },
     {
-      name: 'TypeScript',
-      level: '80'
+      name: "Python",
+      level: "60",
     },
     {
-      name: 'ES.Next',
-      level: '70'
+      name: "Java & Kotlin",
+      level: "75",
     },
     {
-      name: 'Docker',
-      level: '99'
-    }
+      name: "MongoDB & MySQL",
+      level: "70",
+    },
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
+  skillDescription:
+    "Also proficient in Adobe After Effects, Premiere Pro, Unity and Photoshop, grew up Multilingual (Bengali, Hindi and English).",
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
-  }
+    email: "sumonrayy@gmail.com",
+    phone: "+91 7908463334",
+    street: "Chelidanga Railway Colony, Near Shatabdi Park",
+    city: "Asansol",
+    website: "https://sumon-rayy.netlify.app/",
+    github: "SumonRayy",
+  },
 };
