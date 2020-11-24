@@ -5,14 +5,14 @@ export const PERSON = {
     middle: "",
     last: "Roy",
   },
-  position: "Software Developer",
+  position: "FrontEnd Developer",
   birth: {
     year: 1999,
     location: "Bankura",
   },
   experience: [
     {
-      company: "Interior Traffic",
+      company: "InteriorTraffic.com",
       position: "Full Stack Developer",
       timeperiod: "since June 2020 to August 2020",
       description:
@@ -26,6 +26,11 @@ export const PERSON = {
       description:
         "Learned the Fundamentals of Computer Science , Data Structures and Algorithms , various Programming Languages(C , C++, JAVA) , Microprocessors , OS , DBMS(sql, MongoDB) & Economics , being the Class Represntative for 3years at Kanyapur Polytechnic College, Asansol, West Bengal.",
     },
+    {
+      degree: "Secondary & Higher Secondary",
+      timeperiod: "2015-2017",
+      description: "Completed the Secondary & Higher Secondary Education from Eastern Railway HS School Asansol with PCM in HS."
+    }
   ],
   projects: [
     {
@@ -38,7 +43,7 @@ export const PERSON = {
       name: "Milon-Room",
       link: "https://milon-room.herokuapp.com/",
       description:
-        "A Video Coneferencing Meeting Room creating Web-App made with nodeJS & it also has a built-in group Chat-System for multiple users. View More about my projects on my GitHub",
+        "A Video Coneferencing Meeting Room creating Web-App . View More about my projects on my GitHub.",
     },
   ],
 
@@ -84,7 +89,7 @@ export const PERSON = {
     phone: "+91 7908463334",
     street: "Chelidanga Railway Colony, Near Shatabdi Park",
     city: "Asansol",
-    website: "https://sumon-rayy.netlify.app/",
+    website: "https://sumonrayy.xyz/",
     github: "SumonRayy",
   },
 };

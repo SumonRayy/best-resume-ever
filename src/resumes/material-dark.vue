@@ -104,7 +104,7 @@
       <div class="headline">{{experience.position}} - {{experience.company}}</h3>
         <div class="subheadline">{{experience.timeperiod}}</div>
         <p class="info">
-          {{experience.description}}
+          {{experience.description}}. url: <a href="https://www.interiortraffic.com/">https://interiortraffic.com/</a>
         </p>
       </div>
     </div>
@@ -156,7 +156,7 @@ a {
   cursor:pointer;
 }
 .description-personal {
-  margin-let:20px;
+  margin-left:20px;
   margin-top:20px;
   padding-right:40px;
   text-align:justify;
@@ -214,7 +214,7 @@ a {
   opacity:0.8;
   margin-left:20px;
   margin-top:40px;
-  margin-bottom:20px;
+  margin-bottom:10px;
   color:#3f3d3c;
 }
 .c {
